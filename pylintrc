@@ -33,7 +33,7 @@ persistent=no
 # can either give multiple identifier separated by comma (,) or put this option
 # multiple time (only on the command line, not in the configuration file where
 # it should appear only once).
-disable=R
+disable=R,E1101
 #  W8292,
 #  C0304,
 #  E1320,
@@ -80,6 +80,7 @@ disable=R
 
 # Already an error when wildcard imports are used
 # W0614 = Unused import from wildcard
+
 
 
 [REPORTS]
