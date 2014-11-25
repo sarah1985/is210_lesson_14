@@ -44,9 +44,10 @@ Specifications
 
 #.  Create a function named ``numpy_task02()``.
 
-#.  The function should accept two parameters,
-    one for a mean and one for standard deviation. Use those parameters to
-    create your random number generator and the list of values.
+#.  The function should accept three parameters,
+    one for a mean, one for standard deviation and one for the number of
+    random values to return. Use those parameters to create your random
+    number generator and the list of values.
 
 #.  Somewhere in the doc string comments of this function,
     explain why it might be useful.
