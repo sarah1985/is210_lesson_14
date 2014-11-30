@@ -5,8 +5,10 @@
 import numpy
 from pprint import pprint
 
+
 def numpy_task02(param_mean, param_sd):
-    """list of normally distributed random numbers"""
+    """list of normally distributed random numbers
+    this will be helpful for modeling and statistical analysis """
 
     normal_list = []
     for num in range(1, 100):
