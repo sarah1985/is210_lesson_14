@@ -18,9 +18,10 @@ def numpy_task03(txt_file):
         print "There was an error opening {}.".format(txt_file)
 
     else:
-        print "Success! Here are your calculations: \n" \
-              "Mean: {} \n" \
-              "Standard Deviation: {}".format(result[0], result[1])
+        return result
+    print "Success! Here are your calculations: \n" \
+          "Mean: {} \n" \
+          "Standard Deviation: {}".format(result[0], result[1])
 
 if __name__ == "__main__":
     print numpy_task03('data.txt')
